@@ -1,0 +1,56 @@
+
+
+<html>
+
+<head>
+  <link href="https://i.postimg.cc/K86pNLyV/SB.png" rel="shortcut icon" type="image/x-icon" />
+<meta content="width=device-width" name="viewport" /> 
+<title>Contact Us</title>
+<script async src="fireworks.js"></script>
+<script src="fireworks1.js"></script>
+<style>
+  html,* { font-family: 'Inter'; }
+.lead { font-size: 1.5rem; font-weight: 300; }
+#carbonads a{color:#fff;text-decoration:none}#carbonads a:hover{color:#fff}
+.btn { padding: 1.25rem; border: 0; border-radius: 3px; backkground-color: #4F46E5; color: #fff; cursor: pointer; }
+  .fireworkss {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+</style>
+
+</head>
+<body bgcolor="black">
+    <center>
+<a href="https://bit.ly/noblesse2"><div class="fireworkss"></div><img src="https://www.linkpicture.com/q/keren.gif" width="400"></a>
+<script>
+  const container = document.querySelector('.fireworkss')
+
+const fireworks = new Fireworks({
+    target: container,
+    hue: 120,
+    startDelay: 5,
+    minDelay: 20,
+    maxDelay: 1,
+    speed: 1,
+    acceleration: 1.04,
+    friction: 0.98,
+    gravity: 1,
+    particles: 99,
+    trace: 1,
+    explosion: 5,
+    boundaries: {
+        top: 50,
+        bottom: container.clientHeight,
+        left: 50,
+        right: container.clientWidth
+    },
+})
+
+// start fireworks
+fireworks.start()
+</script>
+</center>
+</body>
